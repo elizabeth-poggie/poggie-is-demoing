@@ -1,7 +1,7 @@
 ## Hi, I'm POGGIE 💫
 
 - 💻 web / teacher
-- 🌱 Currently learning: X
+- 🌱 Currently learning: web
 - 📫 Reach me: YOUR_EMAIL / [LinkedIn]
   (https://www.linkedin.com/in/YOUR_PROFILE_LINK)
 
