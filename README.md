@@ -11,4 +11,4 @@ LANGUAGES • THAT • YOU • KNOW
 
 ## 🛠 My Favorite Tools
 
-TOOLS • THAT • YOU • KNOW
+TOOLS • THAT • YOU •
