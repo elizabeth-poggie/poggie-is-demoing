@@ -1,4 +1,4 @@
-# Hello World, I'm Poggie :^)
+# Hello World, I'm Poggie
 
 - 👩‍💻 Educator • Event Director • Internship Coordinator
 - 🐳 Currently learning: [Rootless Docker](https://docs.docker.com/engine/security/rootless/)
