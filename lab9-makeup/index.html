@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Source+Sans+3:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="site-header">
+      <div class="site-header__inner">
+        <a class="logo" href="#">Sir McSnuggles II</a>
+        <button
+          type="button"
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+          <span class="nav-toggle__bar" aria-hidden="true"></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <ul class="site-nav__list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <p class="eyebrow">Cat · Fish Wrangler · Nap specialist</p>
+            <h1 id="hero-title" class="hero__title">Portfolio</h1>
+            <p class="hero__lead">
+              I will eat all your food and slap things off your desk. If i feel
+              like it, I might let you pet me.
+            </p>
+            <div class="hero__actions">
+              <a class="btn btn--primary" href="#work">View selected work</a>
+              <a class="btn btn--ghost" href="#contact">Say hello</a>
+            </div>
+          </div>
+          <figure class="hero__figure">
+            <img
+              src="image.png"
+              alt="Portrait illustration for Cool Kitty"
+              width="420"
+              height="420"
+            />
+            <figcaption class="hero__caption">
+              Current mood: hireable.
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section
+        id="skills"
+        class="section section--alt"
+        aria-labelledby="skills-title"
+      >
+        <div class="section__inner">
+          <h2 id="skills-title" class="section__title">
+            Specialties &amp; snacks
+          </h2>
+          <ul class="pill-list" aria-label="Skills and tools">
+            <li>Fish</li>
+            <li>Rats</li>
+            <li>Mice</li>
+            <li>Birds</li>
+            <li>Other Cats</li>
+            <li>Catnip</li>
+            <li>Your Food</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="work" class="section" aria-labelledby="work-title">
+        <div class="section__inner">
+          <h2 id="work-title" class="section__title">Selected work</h2>
+          <p class="section__intro">
+            A few representative projects. Swap in real case studies, metrics,
+            and links when you have them.
+          </p>
+          <ul class="card-grid">
+            <li>
+              <article class="card">
+                <h3 class="card__title">Mass murdering of rats</h3>
+                <p class="card__meta">Role: Hunter & Tracker</p>
+                <p class="card__text">
+                  Murdered all rats withing a 1K radius of my home.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="card">
+                <h3 class="card__title">A single bird</h3>
+                <p class="card__meta">Role: Aeronautical Engineer</p>
+                <p class="card__text">
+                  Jumped pretty high to catch a bird. Ate it. Fear me.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="section section--contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="section__inner section__inner--narrow">
+          <h2 id="contact-title" class="section__title">Contact</h2>
+          <p class="section__intro">
+            Open to freelance and full-time roles. Shake a packet of treats in
+            my direction.
+          </p>
+          <p class="contact__cta">
+            <a class="btn btn--primary" href="mailto:hello@example.com"
+              >shake@treats.com</a
+            >
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <span>@Sir McSnuggles II, 2026</span>
+        <span class="footer__sep" aria-hidden="true">·</span>
+        <span>Built with semantic HTML and a little JS.</span>
+      </div>
+    </footer>
+  </body>
+</html>
