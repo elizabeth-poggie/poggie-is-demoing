@@ -1,3 +1,5 @@
+// 💻 main.js 💻
+
 (function () {
   const nav = document.getElementById("site-nav");
   const toggle = document.querySelector(".nav-toggle");
