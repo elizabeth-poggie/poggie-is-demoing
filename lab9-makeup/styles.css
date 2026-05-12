@@ -11,16 +11,16 @@
   --border: rgba(242, 235, 227, 0.12);
   --font-display: "Fraunces", Georgia, "Times New Roman", serif;
   --font-body: "Source Sans 3", system-ui, sans-serif;
-  --space-xs: 0.35rem;
-  --space-sm: 0.75rem;
-  --space-md: 1.25rem;
-  --space-lg: 2rem;
-  --space-xl: 3.5rem;
-  --space-2xl: 5rem;
+  --space-xs: 6px;
+  --space-sm: 12px;
+  --space-md: 20px;
+  --space-lg: 32px;
+  --space-xl: 56px;
+  --space-2xl: 80px;
   --radius: 12px;
   --radius-lg: 20px;
-  --header-h: 4rem;
-  --max: 72rem;
+  --header-h: 64px;
+  --max: 1152px;
 }
 
 *,
@@ -43,7 +43,7 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: var(--font-body);
-  font-size: 1.0625rem;
+  font-size: 17px;
   line-height: 1.6;
   color: var(--text);
   background: var(--bg);
@@ -69,7 +69,7 @@ img {
 a {
   color: var(--accent);
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.2em;
+  text-underline-offset: 3px;
 }
 
 a:hover {
@@ -102,10 +102,10 @@ a:hover {
 .logo {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 1.15rem;
+  font-size: 18px;
   color: var(--text);
   text-decoration: none;
-  letter-spacing: -0.02em;
+  letter-spacing: -1px;
 }
 
 .logo:hover {
@@ -118,7 +118,7 @@ a:hover {
 
 .nav-toggle__bar {
   display: block;
-  width: 1.25rem;
+  width: 20px;
   height: 2px;
   margin: 0 auto;
   background: var(--text);
@@ -141,7 +141,7 @@ a:hover {
   color: var(--text-muted);
   text-decoration: none;
   font-weight: 500;
-  font-size: 0.95rem;
+  font-size: 15px;
 }
 
 .site-nav a:hover {
@@ -169,9 +169,9 @@ a:hover {
 
 .eyebrow {
   margin: 0 0 var(--space-sm);
-  font-size: 0.8125rem;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.12em;
+  letter-spacing: 2px;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -180,16 +180,16 @@ a:hover {
   margin: 0 0 var(--space-md);
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 3.25rem;
+  font-size: 52px;
   line-height: 1.08;
-  letter-spacing: -0.03em;
+  letter-spacing: -2px;
 }
 
 .hero__lead {
   margin: 0 0 var(--space-lg);
-  max-width: 36ch;
+  max-width: 520px;
   color: var(--text-muted);
-  font-size: 1.125rem;
+  font-size: 18px;
 }
 
 .hero__actions {
@@ -208,12 +208,12 @@ a:hover {
 }
 
 .hero__figure img {
-  border-radius: calc(var(--radius-lg) - 8px);
+  border-radius: 12px;
 }
 
 .hero__caption {
   margin-top: var(--space-md);
-  font-size: 0.875rem;
+  font-size: 14px;
   color: var(--text-muted);
   text-align: center;
   font-style: italic;
@@ -225,10 +225,10 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 0.65rem 1.25rem;
+  padding: 10px 20px;
   font-family: var(--font-body);
   font-weight: 600;
-  font-size: 0.9375rem;
+  font-size: 15px;
   border-radius: 999px;
   text-decoration: none;
   border: 1px solid transparent;
@@ -279,20 +279,20 @@ a:hover {
 }
 
 .section__inner--narrow {
-  max-width: 40rem;
+  max-width: 640px;
 }
 
 .section__title {
   margin: 0 0 var(--space-md);
   font-family: var(--font-display);
-  font-size: 2.125rem;
+  font-size: 34px;
   font-weight: 600;
-  letter-spacing: -0.02em;
+  letter-spacing: -1px;
 }
 
 .section__intro {
   margin: 0 0 var(--space-lg);
-  max-width: 50ch;
+  max-width: 560px;
   color: var(--text-muted);
 }
 
@@ -315,7 +315,7 @@ a:hover {
 
 .card {
   flex: 1;
-  min-height: 14rem;
+  min-height: 224px;
   padding: var(--space-xl) var(--space-lg);
   background: var(--bg-elevated);
   border: 1px solid var(--border);
@@ -334,15 +334,15 @@ a:hover {
 .card__title {
   margin: 0 0 var(--space-xs);
   font-family: var(--font-display);
-  font-size: 1.35rem;
+  font-size: 22px;
   font-weight: 600;
 }
 
 .card__meta {
   margin: 0 0 var(--space-md);
-  font-size: 0.8125rem;
+  font-size: 13px;
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: var(--accent);
 }
@@ -350,7 +350,7 @@ a:hover {
 .card__text {
   margin: 0;
   color: var(--text-muted);
-  font-size: 0.98rem;
+  font-size: 16px;
 }
 
 /* Pills */
@@ -365,8 +365,8 @@ a:hover {
 }
 
 .pill-list li {
-  padding: 0.4rem 0.9rem;
-  font-size: 0.9rem;
+  padding: 6px 14px;
+  font-size: 14px;
   font-weight: 500;
   color: var(--text);
   background: var(--accent-soft);
@@ -406,7 +406,7 @@ a:hover {
   justify-content: center;
   align-items: center;
   gap: var(--space-sm);
-  font-size: 0.9rem;
+  font-size: 14px;
   color: var(--text-muted);
 }
 
@@ -416,20 +416,20 @@ a:hover {
 
 /* Tablet and down */
 
-@media (max-width: 60rem) {
+@media (max-width: 960px) {
   .card-grid--projects {
     grid-template-columns: 1fr;
   }
 }
 
-@media (max-width: 52rem) {
+@media (max-width: 832px) {
   .nav-toggle {
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 6px;
-    width: 2.75rem;
-    height: 2.75rem;
+    width: 44px;
+    height: 44px;
     padding: 0;
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -448,7 +448,7 @@ a:hover {
   }
 
   .site-nav.is-open {
-    max-height: 16rem;
+    max-height: 256px;
   }
 
   .site-nav__list {
@@ -476,12 +476,12 @@ a:hover {
   }
 
   .hero__title {
-    font-size: 2.5rem;
+    font-size: 40px;
   }
 }
 
-@media (max-width: 36rem) {
+@media (max-width: 576px) {
   .hero__title {
-    font-size: 2rem;
+    font-size: 32px;
   }
 }
